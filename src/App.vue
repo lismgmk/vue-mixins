@@ -28,6 +28,7 @@ export default {
 
   watch: {
     selectedTab() {
+      console.log('reload');
       window.location.hash = "";
     },
   },
